@@ -1,21 +1,21 @@
-  // SECTION
-  /*
-  Very first node code 😁
+// SECTION
+/*
+Very first node code 😁
 
 const greeting = 'Hello World!'
 console.log(greeting)
-  */
+*/
 
 // ---------------------------------------------------------------------------------------------------------
 // SECTION
-  /*
+/*
   How to call Node Core modules❓ We use require() to import any node modules
   This is a blocking synchronous approach
 const fs = require('fs')
 
   */
-  //NOTE
-  /*
+//NOTE
+/*
   Reads a file and returns the content as a Buffer, it takes two parameters: 1. The path to the file 2. The encoding of the file.
 const textInput = fs.readFileSync('./txt/words.txt', 'utf-8')
 console.log(textInput)
@@ -23,7 +23,7 @@ console.log(textInput)
 
 // ---------------------------------------------------------------------------------------------------------
 // SECTION
-  /*
+/*
   How to write text to some file❓ We use the fs.writeFileSync() method to write to a file.
 const textOutput = `This is some text I want to output: ${textInput}.\Created on ${Date.now()}`
 fs.writeFileSync('./txt/output.txt', textOutput)
@@ -32,7 +32,7 @@ console.log('file created')
 
 // ------------------------------------------------------------------------------------------------
 // SECTION  How to code with Non-blocking asynchronous approach❓
-  /*
+/*
 fs.readFile('./txt/start.txt', 'utf-8', (err, data1) => {
   if(err) return console.error('Error! 💣')
   fs.readFile(`./txt/${data1}.txt`, 'utf-8', (err, data2) => {
@@ -47,33 +47,38 @@ fs.readFile('./txt/start.txt', 'utf-8', (err, data1) => {
 })
 
 console.log('This will print before the callback function')
-  */
+*/
 
 // ------------------------------------------------------------------------------------------------
 // SECTION  Creating a simple web server 🎏
-const http = require('http')
-const server = http.createServer((req, res) => {
-// NOTE building a simple routing 🚗
-const pathName = req.url
+const fs = require("fs");
+const http = require("http");
+const url = require("url");
 
-  if (pathName === '/' || pathName === '/overview') {
-    res.end('This is the overview page')
-  } else if (pathName === '/product') {
-    res.end('This is the product page')
-  } else if (pathName === '/api') {
-  res.end('API')
-    
-  } else {
-    res.writeHead(404, {
-      'Content-type': 'text/html'
-    })
-    res.end("<h1>Page not found!</h1>")
-  }
-})
+const data = fs.readFileSync(`${__dirname}/data/db.json`, "utf-8");
+const dataObj = JSON.parse(data);
+
+const server = http.createServer((req, res) => {
+	// NOTE building a simple routing 🚗
+	const pathName = req.url;
+
+	if (pathName === "/" || pathName === "/overview") {
+		res.end("This is the overview page");
+	} else if (pathName === "/product") {
+		res.end("This is the product page");
+	} else if (pathName === "/api") {
+		res.writeHead(200, { "Content-type": "application/json" });
+		res.end(data);
+	} else {
+		res.writeHead(404, {
+			"Content-type": "text/html",
+		});
+		res.end("<h1>Page not found!</h1>");
+	}
+});
 
 //NOTE  We need to listen to the server 😎
-server.listen(8000, '127.0.0.1', () => {
-console.log('listen to request on port 8000 📞')
-})
 
-//------------------------------------------------------------------------------------------------
+server.listen(8000, "127.0.0.1", () => {
+	console.log("listen to request on port 8000 📞");
+});
