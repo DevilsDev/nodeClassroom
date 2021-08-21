@@ -22,8 +22,11 @@ const createUsers = (numUsers = 10) => {
 	return Array.from({ length: numUsers }, createUser);
 };
 
-let fakeUsers = createUsers(5);
+let fakeUsers = createUsers(10);
 // console.log(fakeUsers);
 //----------------------------------------
 //NOTE save the the dummy data in a json file using node core modules 🌳
 fs.writeFile("./db.json", JSON.stringify(fakeUsers, null, 4), (err) => {});
+
+// ------------------------------
+//REVIEW  https://github.com/Marak/faker.js
