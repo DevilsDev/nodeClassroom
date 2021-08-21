@@ -51,6 +51,28 @@ console.log('This will print before the callback function')
   */
 
 // ------------------------------------------------------------------------------------------------
-// SECTION
-// Creating a simple web server 🎏
+// SECTION  Creating a simple web server 🎏
 const http = require('http')
+
+const server = http.createServer((req, res) => {
+// NOTE building a simple routing 🚗
+const pathName = req.url
+
+  if (pathName === '/' || pathName === '/overview') {
+    res.end('This is the overview page')
+  } else if (pathName === '/product') {
+    res.end('This is the product page')
+  } else {
+    res.writeHead(404, {
+      'Content-type': 'text/html'
+    })
+    res.end("<h1>Page not found!</h1>")
+  }
+})
+
+//NOTE  We need to listen to the server 😎
+server.listen(8000, '127.0.0.1', () => {
+console.log('listen to request on port 8000 📞')
+})
+
+//------------------------------------------------------------------------------------------------
