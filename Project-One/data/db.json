@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1b00b78c-5c10-451c-ba48-e8f647a56c4d",
+        "productName": "Intelligent Wooden Shirt",
+        "productCategory": "Computer",
+        "quantity": 65001,
+        "price": "266.00",
+        "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+        "image": "http://placeimg.com/640/480/sports"
+    },
+    {
+        "id": "6a384202-19a0-40b7-b250-3743d36199e4",
+        "productName": "Handcrafted Granite Chicken",
+        "productCategory": "Salad",
+        "quantity": 95122,
+        "price": "918.00",
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "image": "http://placeimg.com/640/480/animals"
+    },
+    {
+        "id": "580d45da-4235-4887-9dc6-8572d8e625cf",
+        "productName": "Practical Rubber Keyboard",
+        "productCategory": "Soap",
+        "quantity": 5312,
+        "price": "276.00",
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "image": "http://placeimg.com/640/480/sports"
+    },
+    {
+        "id": "da05165d-26b3-4a5e-af53-3de667b8feef",
+        "productName": "Fantastic Steel Car",
+        "productCategory": "Hat",
+        "quantity": 84378,
+        "price": "605.00",
+        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "image": "http://placeimg.com/640/480/cats"
+    },
+    {
+        "id": "166a8c94-ad6d-42e1-90fb-c7eccd87222c",
+        "productName": "Fantastic Rubber Bike",
+        "productCategory": "Table",
+        "quantity": 44993,
+        "price": "766.00",
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "image": "http://placeimg.com/640/480/business"
+    }
+]

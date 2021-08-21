@@ -31,9 +31,8 @@ console.log('file created')
   */
 
 // ------------------------------------------------------------------------------------------------
-// SECTION
+// SECTION  How to code with Non-blocking asynchronous approach❓
   /*
-  How to code with Non-blocking asynchronous approach❓
 fs.readFile('./txt/start.txt', 'utf-8', (err, data1) => {
   if(err) return console.error('Error! 💣')
   fs.readFile(`./txt/${data1}.txt`, 'utf-8', (err, data2) => {
@@ -53,7 +52,6 @@ console.log('This will print before the callback function')
 // ------------------------------------------------------------------------------------------------
 // SECTION  Creating a simple web server 🎏
 const http = require('http')
-
 const server = http.createServer((req, res) => {
 // NOTE building a simple routing 🚗
 const pathName = req.url
@@ -62,6 +60,9 @@ const pathName = req.url
     res.end('This is the overview page')
   } else if (pathName === '/product') {
     res.end('This is the product page')
+  } else if (pathName === '/api') {
+  res.end('API')
+    
   } else {
     res.writeHead(404, {
       'Content-type': 'text/html'
