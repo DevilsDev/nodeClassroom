@@ -59,26 +59,26 @@ const data = fs.readFileSync(`${__dirname}/data/db.json`, "utf-8");
 const dataObj = JSON.parse(data);
 
 const server = http.createServer((req, res) => {
-	// NOTE building a simple routing 🚗
-	const pathName = req.url;
+// NOTE building a simple routing 🚗
+const pathName = req.url;
 
-	if (pathName === "/" || pathName === "/overview") {
-		res.end("This is the overview page");
-	} else if (pathName === "/product") {
-		res.end("This is the product page");
-	} else if (pathName === "/api") {
-		res.writeHead(200, { "Content-type": "application/json" });
-		res.end(data);
-	} else {
-		res.writeHead(404, {
-			"Content-type": "text/html",
-		});
-		res.end("<h1>Page not found!</h1>");
-	}
+if (pathName === "/" || pathName === "/overview") {
+  res.end("This is the overview page");
+} else if (pathName === "/product") {
+  res.end("This is the product page");
+} else if (pathName === "/api") {
+  res.writeHead(200, { "Content-type": "application/json" });
+  res.end(data);
+} else {
+  res.writeHead(404, {
+  "Content-type": "text/html",
+});
+  res.end("<h1>Page not found!</h1>");
+}
 });
 
 //NOTE  We need to listen to the server 😎
 
 server.listen(8000, "127.0.0.1", () => {
-	console.log("listen to request on port 8000 📞");
+  console.log("listen to request on port 8000 📞");
 });
