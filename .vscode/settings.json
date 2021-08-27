@@ -24,6 +24,18 @@
       "focusBorder": "#1F2D2A"
     },
     "editor.lineHighlightBackground": "#1073cf2d",
-    "editor.lineHighlightBorder": "#9fced11f"
-  }
+    "editor.lineHighlightBorder": "#9fced11f",
+    "activityBar.activeBackground": "#fa1b49",
+    "activityBar.activeBorder": "#155e02",
+    "editorGroup.border": "#fa1b49",
+    "panel.border": "#fa1b49",
+    "sideBar.border": "#fa1b49",
+    "statusBar.border": "#dd0531",
+    "statusBar.debuggingBackground": "#05ddb1",
+    "statusBar.debuggingBorder": "#05ddb1",
+    "statusBarItem.hoverBackground": "#fa1b49",
+    "titleBar.border": "#dd0531",
+    "titleBar.inactiveBackground": "#dd053199"
+  },
+  "peacock.color": "#dd0531"
 }
