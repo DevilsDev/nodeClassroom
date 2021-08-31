@@ -1,0 +1,262 @@
+[
+    {
+        "card": {
+            "name": "Magdalena",
+            "username": "Magdalena_Pouros19",
+            "avatar": "https://cdn.fakercloud.com/avatars/darcystonge_128.jpg",
+            "email": "Magdalena_Pouros19.Abernathy@yahoo.com",
+            "dob": "1953-07-13T23:33:50.070Z",
+            "phone": "214-632-6927 x443",
+            "address": {
+                "street": "Amanda Run",
+                "suite": "Suite 171",
+                "city": "Ignatiusport",
+                "zipcode": "37012-7419",
+                "geo": {
+                    "lat": "-55.0798",
+                    "lng": "34.2407"
+                }
+            },
+            "website": "lavonne.net",
+            "company": {
+                "name": "Lockman, Kemmer and Osinski",
+                "catchPhrase": "Customer-focused uniform protocol",
+                "bs": "aggregate back-end applications"
+            }
+        }
+    },
+    {
+        "card": {
+            "name": "Broderick",
+            "username": "Broderick_Boyle30",
+            "avatar": "https://cdn.fakercloud.com/avatars/shanehudson_128.jpg",
+            "email": "Broderick_Boyle30.DAmore@yahoo.com",
+            "dob": "1976-03-04T22:55:58.589Z",
+            "phone": "1-383-385-2006",
+            "address": {
+                "street": "Zora Light",
+                "suite": "Suite 111",
+                "city": "Gaetanochester",
+                "zipcode": "76289-6716",
+                "geo": {
+                    "lat": "-37.4122",
+                    "lng": "-109.7513"
+                }
+            },
+            "website": "garett.com",
+            "company": {
+                "name": "Brekke, Spencer and Quigley",
+                "catchPhrase": "Switchable interactive knowledge base",
+                "bs": "innovate web-enabled initiatives"
+            }
+        }
+    },
+    {
+        "card": {
+            "name": "Noel",
+            "username": "Noel.Dicki24",
+            "avatar": "https://cdn.fakercloud.com/avatars/edhenderson_128.jpg",
+            "email": "Noel.Dicki24_Hirthe@hotmail.com",
+            "dob": "1948-08-01T20:04:59.184Z",
+            "phone": "658.407.9486",
+            "address": {
+                "street": "Von Loop",
+                "suite": "Apt. 981",
+                "city": "South Zackary",
+                "zipcode": "39733-7148",
+                "geo": {
+                    "lat": "10.6377",
+                    "lng": "-61.6468"
+                }
+            },
+            "website": "robbie.net",
+            "company": {
+                "name": "Block Group",
+                "catchPhrase": "Devolved asymmetric ability",
+                "bs": "envisioneer revolutionary blockchains"
+            }
+        }
+    },
+    {
+        "card": {
+            "name": "Laurence",
+            "username": "Laurence_Durgan",
+            "avatar": "https://cdn.fakercloud.com/avatars/sydlawrence_128.jpg",
+            "email": "Laurence_Durgan.Ruecker0@hotmail.com",
+            "dob": "1990-08-07T18:31:22.977Z",
+            "phone": "1-646-582-6891",
+            "address": {
+                "street": "Hoppe Gardens",
+                "suite": "Apt. 723",
+                "city": "Glendale",
+                "zipcode": "29979",
+                "geo": {
+                    "lat": "34.5252",
+                    "lng": "-98.1877"
+                }
+            },
+            "website": "mohammed.net",
+            "company": {
+                "name": "Hahn Group",
+                "catchPhrase": "Multi-tiered clear-thinking help-desk",
+                "bs": "productize sticky metrics"
+            }
+        }
+    },
+    {
+        "card": {
+            "name": "Leopold",
+            "username": "Leopold_Labadie",
+            "avatar": "https://cdn.fakercloud.com/avatars/vj_demien_128.jpg",
+            "email": "Leopold_Labadie96@hotmail.com",
+            "dob": "1973-02-27T13:19:04.708Z",
+            "phone": "718.996.6197",
+            "address": {
+                "street": "Dicki Knolls",
+                "suite": "Suite 512",
+                "city": "Johnstonfurt",
+                "zipcode": "20503",
+                "geo": {
+                    "lat": "-85.1109",
+                    "lng": "-90.6403"
+                }
+            },
+            "website": "robin.info",
+            "company": {
+                "name": "Zboncak - Glover",
+                "catchPhrase": "Ergonomic transitional protocol",
+                "bs": "maximize clicks-and-mortar markets"
+            }
+        }
+    },
+    {
+        "card": {
+            "name": "Ansel",
+            "username": "Ansel91",
+            "avatar": "https://cdn.fakercloud.com/avatars/VinThomas_128.jpg",
+            "email": "Ansel9184@yahoo.com",
+            "dob": "1957-04-23T18:20:27.280Z",
+            "phone": "743.804.5385",
+            "address": {
+                "street": "Lang Lodge",
+                "suite": "Apt. 904",
+                "city": "Port Diana",
+                "zipcode": "87149",
+                "geo": {
+                    "lat": "-73.9325",
+                    "lng": "59.2495"
+                }
+            },
+            "website": "linnea.info",
+            "company": {
+                "name": "Larkin, Schuppe and Jakubowski",
+                "catchPhrase": "Right-sized incremental approach",
+                "bs": "architect visionary systems"
+            }
+        }
+    },
+    {
+        "card": {
+            "name": "Eugenia",
+            "username": "Eugenia.Carroll",
+            "avatar": "https://cdn.fakercloud.com/avatars/bobwassermann_128.jpg",
+            "email": "Eugenia.Carroll75@yahoo.com",
+            "dob": "1974-03-19T16:09:46.294Z",
+            "phone": "334-545-4117",
+            "address": {
+                "street": "Opal Stravenue",
+                "suite": "Suite 588",
+                "city": "McLaughlinmouth",
+                "zipcode": "76759-9336",
+                "geo": {
+                    "lat": "-30.7193",
+                    "lng": "-155.6989"
+                }
+            },
+            "website": "edgardo.info",
+            "company": {
+                "name": "Crona Inc",
+                "catchPhrase": "Open-architected even-keeled firmware",
+                "bs": "aggregate impactful applications"
+            }
+        }
+    },
+    {
+        "card": {
+            "name": "Kiara",
+            "username": "Kiara25",
+            "avatar": "https://cdn.fakercloud.com/avatars/christianoliff_128.jpg",
+            "email": "Kiara25.Brekke@gmail.com",
+            "dob": "1968-03-29T09:05:31.071Z",
+            "phone": "1-420-650-1401 x39925",
+            "address": {
+                "street": "Dandre Inlet",
+                "suite": "Apt. 077",
+                "city": "Lake Nikko",
+                "zipcode": "76319-5980",
+                "geo": {
+                    "lat": "-9.9957",
+                    "lng": "133.7450"
+                }
+            },
+            "website": "caden.com",
+            "company": {
+                "name": "Hintz Inc",
+                "catchPhrase": "Multi-layered 24/7 moderator",
+                "bs": "cultivate extensible deliverables"
+            }
+        }
+    },
+    {
+        "card": {
+            "name": "Shyann",
+            "username": "Shyann_Heathcote36",
+            "avatar": "https://cdn.fakercloud.com/avatars/ionuss_128.jpg",
+            "email": "Shyann_Heathcote36.Walsh@yahoo.com",
+            "dob": "1944-11-03T04:52:36.906Z",
+            "phone": "(228) 323-1675 x440",
+            "address": {
+                "street": "Eliza Mews",
+                "suite": "Apt. 059",
+                "city": "West Jerald",
+                "zipcode": "15225-7356",
+                "geo": {
+                    "lat": "12.0397",
+                    "lng": "59.7046"
+                }
+            },
+            "website": "daphnee.org",
+            "company": {
+                "name": "Mills Group",
+                "catchPhrase": "Reduced tertiary local area network",
+                "bs": "iterate efficient partnerships"
+            }
+        }
+    },
+    {
+        "card": {
+            "name": "Marques",
+            "username": "Marques_Powlowski20",
+            "avatar": "https://cdn.fakercloud.com/avatars/teeragit_128.jpg",
+            "email": "Marques_Powlowski20.Reynolds@yahoo.com",
+            "dob": "1959-04-02T23:37:53.922Z",
+            "phone": "645.546.4683 x3799",
+            "address": {
+                "street": "Alf Fords",
+                "suite": "Apt. 951",
+                "city": "Handberg",
+                "zipcode": "19819",
+                "geo": {
+                    "lat": "65.4993",
+                    "lng": "-176.3191"
+                }
+            },
+            "website": "larissa.biz",
+            "company": {
+                "name": "Volkman Inc",
+                "catchPhrase": "Profound full-range encoding",
+                "bs": "grow customized models"
+            }
+        }
+    }
+]
