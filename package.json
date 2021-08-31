@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/DevilsDev/nodeClassroom/issues"
   },
-  "homepage": "https://github.com/DevilsDev/nodeClassroom#readme"
+  "homepage": "https://github.com/DevilsDev/nodeClassroom#readme",
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
 }
