@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/DevilsDev/nodeClassroom/issues"
   },
-  "homepage": "https://github.com/DevilsDev/nodeClassroom#readme"
+  "homepage": "https://github.com/DevilsDev/nodeClassroom#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
